@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		04E23B4B2DCCBAAB0093B4C3 /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B4A2DCCBAAB0093B4C3 /* iOSApp.swift */; };
-		04E23B4D2DCCBAAB0093B4C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B4C2DCCBAAB0093B4C3 /* ContentView.swift */; };
+		04E23B4D2DCCBAAB0093B4C3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B4C2DCCBAAB0093B4C3 /* MainView.swift */; };
 		04E23B4F2DCCBAAE0093B4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E23B4E2DCCBAAE0093B4C3 /* Assets.xcassets */; };
 		04E23B522DCCBAAE0093B4C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E23B512DCCBAAE0093B4C3 /* Preview Assets.xcassets */; };
-		04E23B5C2DCCBAAE0093B4C3 /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B5B2DCCBAAE0093B4C3 /* iOSTests.swift */; };
-		04E23B662DCCBAAE0093B4C3 /* iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B652DCCBAAE0093B4C3 /* iOSUITests.swift */; };
-		04E23B682DCCBAAE0093B4C3 /* iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B672DCCBAAE0093B4C3 /* iOSUITestsLaunchTests.swift */; };
+		04E23B772DCCBF130093B4C3 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B762DCCBF130093B4C3 /* user.swift */; };
+		04E23B792DCCBF430093B4C3 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B782DCCBF430093B4C3 /* BoxView.swift */; };
+		04E23B7C2DCCC74F0093B4C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B7B2DCCC74F0093B4C3 /* HomeView.swift */; };
+		04E23B7E2DCCC8070093B4C3 /* CrownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B7D2DCCC8070093B4C3 /* CrownView.swift */; };
+		04E23B802DCCC8130093B4C3 /* TrophyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B7F2DCCC8130093B4C3 /* TrophyView.swift */; };
+		04E23B822DCCC8200093B4C3 /* MypageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B812DCCC8200093B4C3 /* MypageView.swift */; };
+		04E23B852DCCCCF70093B4C3 /* NavigationColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B842DCCCCF70093B4C3 /* NavigationColor.swift */; };
+		04E23B882DCCCDA00093B4C3 /* UIColor+HexCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E23B872DCCCDA00093B4C3 /* UIColor+HexCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +41,19 @@
 /* Begin PBXFileReference section */
 		04E23B472DCCBAAB0093B4C3 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E23B4A2DCCBAAB0093B4C3 /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
-		04E23B4C2DCCBAAB0093B4C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04E23B4C2DCCBAAB0093B4C3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04E23B4E2DCCBAAE0093B4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E23B512DCCBAAE0093B4C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04E23B572DCCBAAE0093B4C3 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E23B5B2DCCBAAE0093B4C3 /* iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
 		04E23B612DCCBAAE0093B4C3 /* iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E23B652DCCBAAE0093B4C3 /* iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSUITests.swift; sourceTree = "<group>"; };
-		04E23B672DCCBAAE0093B4C3 /* iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04E23B762DCCBF130093B4C3 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		04E23B782DCCBF430093B4C3 /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		04E23B7B2DCCC74F0093B4C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04E23B7D2DCCC8070093B4C3 /* CrownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownView.swift; sourceTree = "<group>"; };
+		04E23B7F2DCCC8130093B4C3 /* TrophyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyView.swift; sourceTree = "<group>"; };
+		04E23B812DCCC8200093B4C3 /* MypageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageView.swift; sourceTree = "<group>"; };
+		04E23B842DCCCCF70093B4C3 /* NavigationColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationColor.swift; sourceTree = "<group>"; };
+		04E23B872DCCCDA00093B4C3 /* UIColor+HexCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexCode.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				04E23B492DCCBAAB0093B4C3 /* iOS */,
-				04E23B5A2DCCBAAE0093B4C3 /* iOSTests */,
-				04E23B642DCCBAAE0093B4C3 /* iOSUITests */,
 				04E23B482DCCBAAB0093B4C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +102,9 @@
 		04E23B492DCCBAAB0093B4C3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				04E23B7A2DCCC7390093B4C3 /* View */,
+				04E23B752DCCBEFF0093B4C3 /* models */,
 				04E23B4A2DCCBAAB0093B4C3 /* iOSApp.swift */,
-				04E23B4C2DCCBAAB0093B4C3 /* ContentView.swift */,
 				04E23B4E2DCCBAAE0093B4C3 /* Assets.xcassets */,
 				04E23B502DCCBAAE0093B4C3 /* Preview Content */,
 			);
@@ -110,21 +119,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		04E23B5A2DCCBAAE0093B4C3 /* iOSTests */ = {
+		04E23B742DCCBD1F0093B4C3 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				04E23B5B2DCCBAAE0093B4C3 /* iOSTests.swift */,
+				04E23B782DCCBF430093B4C3 /* BoxView.swift */,
 			);
-			path = iOSTests;
+			path = components;
 			sourceTree = "<group>";
 		};
-		04E23B642DCCBAAE0093B4C3 /* iOSUITests */ = {
+		04E23B752DCCBEFF0093B4C3 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				04E23B652DCCBAAE0093B4C3 /* iOSUITests.swift */,
-				04E23B672DCCBAAE0093B4C3 /* iOSUITestsLaunchTests.swift */,
+				04E23B762DCCBF130093B4C3 /* user.swift */,
 			);
-			path = iOSUITests;
+			path = models;
+			sourceTree = "<group>";
+		};
+		04E23B7A2DCCC7390093B4C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E23B862DCCCD950093B4C3 /* Extension */,
+				04E23B832DCCCCE70093B4C3 /* modifier */,
+				04E23B742DCCBD1F0093B4C3 /* components */,
+				04E23B4C2DCCBAAB0093B4C3 /* MainView.swift */,
+				04E23B7B2DCCC74F0093B4C3 /* HomeView.swift */,
+				04E23B7D2DCCC8070093B4C3 /* CrownView.swift */,
+				04E23B7F2DCCC8130093B4C3 /* TrophyView.swift */,
+				04E23B812DCCC8200093B4C3 /* MypageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E23B832DCCCCE70093B4C3 /* modifier */ = {
+			isa = PBXGroup;
+			children = (
+				04E23B842DCCCCF70093B4C3 /* NavigationColor.swift */,
+			);
+			path = modifier;
+			sourceTree = "<group>";
+		};
+		04E23B862DCCCD950093B4C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04E23B872DCCCDA00093B4C3 /* UIColor+HexCode.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E23B4D2DCCBAAB0093B4C3 /* ContentView.swift in Sources */,
+				04E23B852DCCCCF70093B4C3 /* NavigationColor.swift in Sources */,
+				04E23B792DCCBF430093B4C3 /* BoxView.swift in Sources */,
+				04E23B822DCCC8200093B4C3 /* MypageView.swift in Sources */,
+				04E23B4D2DCCBAAB0093B4C3 /* MainView.swift in Sources */,
 				04E23B4B2DCCBAAB0093B4C3 /* iOSApp.swift in Sources */,
+				04E23B7C2DCCC74F0093B4C3 /* HomeView.swift in Sources */,
+				04E23B802DCCC8130093B4C3 /* TrophyView.swift in Sources */,
+				04E23B7E2DCCC8070093B4C3 /* CrownView.swift in Sources */,
+				04E23B882DCCCDA00093B4C3 /* UIColor+HexCode.swift in Sources */,
+				04E23B772DCCBF130093B4C3 /* user.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E23B5C2DCCBAAE0093B4C3 /* iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +320,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E23B682DCCBAAE0093B4C3 /* iOSUITestsLaunchTests.swift in Sources */,
-				04E23B662DCCBAAE0093B4C3 /* iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +469,7 @@
 				DEVELOPMENT_TEAM = 2ZUPUWUJS4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StrengthHub;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +499,7 @@
 				DEVELOPMENT_TEAM = 2ZUPUWUJS4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StrengthHub;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -11,7 +11,11 @@ import SwiftUI
 struct iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // 로그인 O
+            MainView()
+            
+            // 로그인 X
+            // LoginView()
         }
     }
 }
